@@ -16,13 +16,13 @@ The purpose of this analysis is to explore contributing factors to successfull i
 ![Opt2Eval.png](images/Opt2Eval.png)
 ![Opt3Eval.png](images/Opt3Eval.png)
 - In attempts to optimize and improve performance, the following adjustments were made to model:
-* Additional neurons were added to each of the two hidden layers.
-* Activation function changed to reLU.
-![Opt1Summary.png](images/Opt1Summary.png)
-* Additional hidden layer.
-![Opt2Summary.png](images/Opt2Summary.png)
-* Adjust input data (drop column) that may be contributing to confusion
-![CheckVariables.png](images/CheckVariables.png)
-![Opt3Summary.png](images/Opt3Summary.png)
+  * Additional neurons were added to each of the two hidden layers.
+  * Activation function changed to reLU.
+  ![Opt1Summary.png](images/Opt1Summary.png)
+  * Additional hidden layer.
+  ![Opt2Summary.png](images/Opt2Summary.png)
+  * Adjust input data (drop column) that may be contributing to confusion
+  ![CheckVariables.png](images/CheckVariables.png)
+  ![Opt3Summary.png](images/Opt3Summary.png)
 ## Summary
 - Given the desired outcome of binary classification (Success or no success) - a logistic regression or Support Vector Machine model may be a better fit for this purpose. Most likely, SVM would provide a higher accuracy based on its ability to create multidimensional borders. For this purpose, neural networks may be more prone to overfitting.
