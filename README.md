@@ -20,7 +20,6 @@ The purpose of this analysis is to explore contributing factors to successfull i
   * Activation function changed to reLU.
   ![Opt1Summary.png](images/Opt1Summary.png)
   * Additional hidden layer.
-  
   ![Opt2Summary.png](images/Opt2Summary.png)
   * Adjust input data (drop column) that may be contributing to confusion
   ![CheckVariables.png](images/CheckVariables.png)
